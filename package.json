@@ -1,0 +1,43 @@
+{
+  "name": "sass-spacing",
+  "version": "1.0.0",
+  "description": "CSS classes for margin and padding.",
+  "main.scss": "classes.scss",
+  "files": [
+    "index.css",
+    "classes.scss"
+  ],
+  "scripts": {
+    "build": "node-sass --include-path node_modules ./classes.scss > ./index.css",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idea-fix/sass-spacing.git"
+  },
+  "keywords": [
+    "margin",
+    "padding",
+    "spacing",
+    "sass",
+    "libsass",
+    "scss",
+    "style",
+    "npm",
+    "import",
+    "sass-composer"
+  ],
+  "author": {
+    "name": "Alex Zappa a.k.a. re[at]lat",
+    "email": "reatlat@gmail.com",
+    "url": "https://reatlat.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idea-fix/sass-spacing/issues"
+  },
+  "homepage": "https://github.com/idea-fix/sass-spacing#readme",
+  "devDependencies": {
+    "node-sass": "^3.10.0"
+  }
+}
